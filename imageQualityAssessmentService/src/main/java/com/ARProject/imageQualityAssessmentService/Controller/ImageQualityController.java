@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("api/image")
+@RequestMapping("api/imagescore")
 public class ImageQualityController {
 
     private final ImageQualityServiceImpl imageQualityService;
